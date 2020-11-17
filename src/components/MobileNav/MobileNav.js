@@ -12,7 +12,7 @@ const MobileNav = () => {
           <NavButton
             hasIconOnly
             renderIcon={User32}
-            iconDescription="Me"
+            iconDescription="About Me"
             tooltipPosition="bottom"
           />
         </NavLink>
