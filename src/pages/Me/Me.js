@@ -29,6 +29,16 @@ const Me = ({ user }) => {
               </a>
             </ProfileLink>
           ))}
+          <ProfileLink key="Gmail">
+            {" | "}
+            <a
+              href="mailto:edmond.delmundo@gmail.com"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Gmail
+            </a>
+          </ProfileLink>
         </ul>
       </div>
     </Layout>
