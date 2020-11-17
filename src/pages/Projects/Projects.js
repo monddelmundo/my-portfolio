@@ -17,7 +17,7 @@ const Projects = ({ user }) => {
         <ul>
           {user.projects.map((project, i) => (
             <ProjectItem key={i}>
-              <ProjectTitle>{i + ".) " + project.name}</ProjectTitle>
+              <ProjectTitle>{i++ + ".) " + project.name}</ProjectTitle>
               <ProjectDescription>{project.summary}</ProjectDescription>
               <Button href={project.website}>View Project</Button>
               <Button href={project.githubUrl}>Check source code</Button>
