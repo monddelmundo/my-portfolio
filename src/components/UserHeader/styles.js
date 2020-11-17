@@ -16,10 +16,14 @@ export const Header = styled.div`
   }
 `;
 
+export const H2 = styled.h2`
+  font-weight: bold;
+`;
+
 export const Image = styled.img`
   width: 200px;
   margin-right: 1rem;
-  border-radius: 2px;
+  border-radius: 5px;
 `;
 
 export const ViewResumeLink = styled.a`

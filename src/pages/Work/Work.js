@@ -13,10 +13,10 @@ const Work = ({ user }) => {
             <WorkItem key={i}>
               <WorkTitle>{work.position}</WorkTitle>
               <div>
-                <JobTitle>{work.company}</JobTitle> <span>{work.location}</span>
+                <JobTitle>{work.company + " " + work.location}</JobTitle>
                 <span> &sdot; </span>
                 <span>
-                  {work.start.year} to {work.end.year}
+                  {work.start.year} to {work.end.year || "Current"}
                 </span>
               </div>
               <Paragraph>{work.summary}</Paragraph>
